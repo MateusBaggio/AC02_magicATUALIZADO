@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.painel{
+    font-family: 'Irish Grover';
+    font-size: large;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    display: flex;  
+    flex-direction: row;
+    width: 95vw;
+}
+
+.logo{
+    order: -1;
+}
+
+.banner{
+    display: flex;
+}
+
+.titulo{
+    font-family: 'Irish Grover';
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.colecoes{
+    display: flex;  
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.ver{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 12%;
+    margin-top: 1%;
+    font-family: 'Inter';
+}
+
+.ver a{
+    text-decoration: none;
+    color: #306CB4;
+}
+
+.container_footer{
+   background-color: #112C4D;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   margin-top: 8%;
+   padding: 20px 0 0 0;
+}
+
+.palavra{
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro{
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.inf{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    border-radius: 11px;
+    padding: 10px;
+}
+
+#botao{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FFCB05;
+}
+
+.banner_footer{
+    background-color: #06112D;
+    width: 98.74vw;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.midias{
+    margin-right: 10px;
+}
+
+#logo_footer{
+    margin-left: 10px;
+}
