@@ -64,8 +64,9 @@
 }
 
 .cadastro{
-    color: azure;
+    color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     padding: 20px;
 }
 .inf{
@@ -82,6 +83,7 @@
     margin-top: 15px;
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: center;
     margin-left: 50px;
     width: 200px;
@@ -89,6 +91,9 @@
     border-radius: 5px;
     padding: 20px;
     background-color: #FFCB05;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-weight: bolder;
 }
 
 .banner_footer{
